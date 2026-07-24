@@ -1,0 +1,25 @@
+Models,Prompting Strategies,TP,FP,TN,FN
+GPT-5.5,Zero-Shot,185,170,1030,15
+,Zero-Shot + Conservative,169,88,1112,31
+,Zero-Shot-CoT,185,192,1008,15
+,Zero-Shot-CoT + Conservative,171,99,1101,29
+GPT-5.4,Zero-Shot,183,209,991,17
+,Zero-Shot + Conservative,173,112,1088,27
+,Zero-Shot-CoT,188,318,882,12
+,Zero-Shot-CoT + Conservative,177,171,1029,23
+GPT-5.4-mini,Zero-Shot,163,133,1067,37
+,Zero-Shot + Conservative,173,112,1088,27
+,Zero-Shot-CoT,188,318,882,12
+,Zero-Shot-CoT + Conservative,177,171,1029,23
+Qwen3.5-2B,Zero-Shot,157,820,380,43
+,Zero-Shot + Conservative,65,209,991,135
+,Zero-Shot-CoT,192,1021,178,8
+,Zero-Shot-CoT + Conservative,142,577,622,58
+Llama3.2-3B,Zero-Shot,167,873,327,33
+,Zero-Shot + Conservative,148,817,379,52
+,Zero-Shot-CoT,126,779,421,74
+,Zero-Shot-CoT + Conservative,105,753,447,95
+GPT-OSS-20B,Zero-Shot,128,237,963,71
+,Zero-Shot + Conservative,123,66,1134,77
+,Zero-Shot-CoT,70,246,953,129
+,Zero-Shot-CoT + Conservative,122,53,1146,76
